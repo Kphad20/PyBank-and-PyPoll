@@ -5,7 +5,7 @@ import csv
 #CSV path to collect data
 csvpath = os.path.join('..', 'PyPoll','Resources','election_data.csv')
 
-#Initiate total vote count and array
+#Initiate total vote count and cadidate list
 total_votes = 0
 candidate = []
 

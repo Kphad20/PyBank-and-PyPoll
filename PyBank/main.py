@@ -10,7 +10,7 @@ with open(csvpath) as csvfile:
     csvreader = csv.reader(csvfile, delimiter=',')
     csv_header = next(csvreader)
 
-    #Initiate arrays and profits/losses
+    #Initiate lists and profits/losses
     total_months = []
     profit_loss = []
     net_total = 0
